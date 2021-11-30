@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+
+<html class="scroll-theme">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hudhud</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.18/themes/base/minified/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/MainStyle-RTL.css">
+
+    <style>
+        :root {
+            --main-color: 0, 114, 255;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-logo-holder">
+                <img src="img/nav-logo.png">
+            </div>
+
+            <div class="nav-info-holder">
+                <div class="nav-search-holder">
+                    <div class="nav-search-input">
+                        <input type="text" placeholder="بحث">
+                        <div class="btn-search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                viewBox="0 0 17.293 17.293">
+                                <g id="search" transform="translate(0.5 0.5)">
+                                    <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none" stroke="#b2b2b2"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                        stroke-width="1" />
+                                    <path id="Path" d="M3.888,3.888,0,0" transform="translate(12.199 12.199)"
+                                        fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-miterlimit="10" stroke-width="1" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="search-result-holder scroll-theme">
+                        <div class="nav-empty-search">
+                            <div class="icon-search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                    viewBox="0 0 17.293 17.293">
+                                    <g id="search" transform="translate(0.5 0.5)">
+                                        <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none" stroke="#b2b2b2"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                            stroke-width="1" />
+                                        <path id="Path" d="M3.888,3.888,0,0" transform="translate(12.199 12.199)"
+                                            fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-miterlimit="10" stroke-width="1" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <p>لا توجد نتائج بحث</p>
+                        </div>
+
+                        <div class="search-result-block">
+                            <ul>
+                                <li>
+                                    <p class="result-name">الذكاء الاصطناعي</p>
+                                    <div class="icon-search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                            viewBox="0 0 17.293 17.293">
+                                            <g id="search" transform="translate(0.5 0.5)">
+                                                <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none"
+                                                    stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                                <path id="Path" d="M3.888,3.888,0,0"
+                                                    transform="translate(12.199 12.199)" fill="none" stroke="#b2b2b2"
+                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <p class="result-name">الذكاء الاصطناعي</p>
+                                    <div class="icon-search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                            viewBox="0 0 17.293 17.293">
+                                            <g id="search" transform="translate(0.5 0.5)">
+                                                <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none"
+                                                    stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                                <path id="Path" d="M3.888,3.888,0,0"
+                                                    transform="translate(12.199 12.199)" fill="none" stroke="#b2b2b2"
+                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <p class="result-name">الذكاء الاصطناعي</p>
+                                    <div class="icon-search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                            viewBox="0 0 17.293 17.293">
+                                            <g id="search" transform="translate(0.5 0.5)">
+                                                <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none"
+                                                    stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                                <path id="Path" d="M3.888,3.888,0,0"
+                                                    transform="translate(12.199 12.199)" fill="none" stroke="#b2b2b2"
+                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="search-result-block">
+                            <div class="search-result-block-title">
+                                <p class="title">الصادر و الوارد</p>
+                                <a class="view-all">عرض الكل</a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <p class="result-name">الذكاء الاصطناعي</p>
+                                    <div class="icon-search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                            viewBox="0 0 17.293 17.293">
+                                            <g id="search" transform="translate(0.5 0.5)">
+                                                <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none"
+                                                    stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                                <path id="Path" d="M3.888,3.888,0,0"
+                                                    transform="translate(12.199 12.199)" fill="none" stroke="#b2b2b2"
+                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <p class="result-name">الذكاء الاصطناعي</p>
+                                    <div class="icon-search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                            viewBox="0 0 17.293 17.293">
+                                            <g id="search" transform="translate(0.5 0.5)">
+                                                <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none"
+                                                    stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                                <path id="Path" d="M3.888,3.888,0,0"
+                                                    transform="translate(12.199 12.199)" fill="none" stroke="#b2b2b2"
+                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <p class="result-name">الذكاء الاصطناعي</p>
+                                    <div class="icon-search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17.293" height="17.293"
+                                            viewBox="0 0 17.293 17.293">
+                                            <g id="search" transform="translate(0.5 0.5)">
+                                                <circle id="Oval" cx="7.149" cy="7.149" r="7.149" fill="none"
+                                                    stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                                <path id="Path" d="M3.888,3.888,0,0"
+                                                    transform="translate(12.199 12.199)" fill="none" stroke="#b2b2b2"
+                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-miterlimit="10" stroke-width="1" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="nav-time-holder">
+                    <div class="icon-time">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Group_2143" data-name="Group 2143" width="19"
+                            height="19" viewBox="0 0 19 19">
+                            <path id="Path_6985" data-name="Path 6985"
+                                d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,17.812A8.312,8.312,0,1,1,17.812,9.5,8.322,8.322,0,0,1,9.5,17.812Z"
+                                fill="#484848" />
+                            <path id="Path_6986" data-name="Path 6986"
+                                d="M241.187,96H240v6.183l3.736,3.736.84-.84-3.388-3.388Z"
+                                transform="translate(-231.094 -92.438)" fill="#484848" />
+                        </svg>
+                    </div>
+
+                    <div class="nav-currenttime">
+                        <p class="nav-date"><span>28</span> <span>شوال</span> <span>1441</span></p> , <p
+                            class="nav-time">3:30 am</p>
+                    </div>
+                </div>
+
+                <div class="nav-notif-holder">
+
+                    <div class="icon-notif dropdown notif-active nav-dropholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Group_1858" data-name="Group 1858" width="19.896"
+                            height="25.416" viewBox="0 0 19.896 25.416" id="dLabel" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" class="drop-holder">
+                            <g id="Group_1855" data-name="Group 1855" transform="translate(0)">
+                                <g id="Group_1854" data-name="Group 1854">
+                                    <path id="Path_6957" data-name="Path 6957"
+                                        d="M62.5,21.437l-1.708-3.031a9.446,9.446,0,0,1-1.206-4.632V11.119a7.376,7.376,0,0,0-4.974-7.1v-1.9a1.994,1.994,0,1,0-3.979,0v1.9a7.376,7.376,0,0,0-4.974,7.1v2.655a9.452,9.452,0,0,1-1.2,4.631l-1.708,3.031a.558.558,0,0,0-.006.534.492.492,0,0,0,.432.269h18.9a.494.494,0,0,0,.433-.268A.561.561,0,0,0,62.5,21.437Z"
+                                        transform="translate(-42.675)" fill="#484848" />
+                                </g>
+                            </g>
+                            <g id="Group_1857" data-name="Group 1857" transform="translate(6.613 23.298)">
+                                <g id="Group_1856" data-name="Group 1856">
+                                    <path id="Path_6958" data-name="Path 6958"
+                                        d="M188.815,469.333a3.684,3.684,0,0,0,6.67,0Z"
+                                        transform="translate(-188.815 -469.333)" fill="#484848" />
+                                </g>
+                            </g>
+                        </svg>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li class="dropnav-header">
+                                <p class="dropnav-title">الاشعارات</p>
+                                <div class="dropnav-options">
+                                    <div class="droptwo dropdown">
+                                        <div id="drop2" class="btn-dropdown-holder" type="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <span class="filter-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.9"
+                                                    viewBox="0 0 16 15.9">
+                                                    <g id="Group_3080" data-name="Group 3080"
+                                                        transform="translate(0.322 -0.424)">
+                                                        <g id="Group_3079" data-name="Group 3079"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_3078" data-name="Group 3078"
+                                                                transform="translate(0)">
+                                                                <path id="Path_7152" data-name="Path 7152"
+                                                                    d="M32.153,70.888a.509.509,0,0,1,.144.351v7.437l3.194-2.731V71.239a.509.509,0,0,1,.144-.351L41.038,65H26.75Z"
+                                                                    transform="translate(-26.39 -62.351)"
+                                                                    fill="#8f9198" />
+                                                                <rect id="Rectangle_971" data-name="Rectangle 971"
+                                                                    width="16" height="1"
+                                                                    transform="translate(-0.322 0.424)"
+                                                                    fill="#8f9198" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+
+                                            </span>
+                                            تصفية
+                                        </div>
+                                        <ul class="dropdown-menu" aria-labelledby="drop2">
+                                            <li>
+                                                <div class="radio-input-holder">
+                                                    <input type="checkbox" id="add55">
+                                                    <label for="add55">ترتيب حسب الأحدث</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="radio-input-holder">
+                                                    <input type="checkbox" id="add66">
+                                                    <label for="add66">عرض الكل</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="btn-clear-all">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                            viewBox="0 0 11.963 11.963">
+                                            <g id="Group_21" data-name="Group 21"
+                                                transform="translate(5.981 -3.153) rotate(45)">
+                                                <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                    transform="translate(6.459)" fill="none" stroke="#fff"
+                                                    stroke-linecap="round" stroke-width="2"></line>
+                                                <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                    transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                    stroke-linecap="round" stroke-width="2"></line>
+                                            </g>
+                                        </svg>
+
+                                        مسح الكل
+                                    </div>
+
+                                    <div class="btn-open-dropnav">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16.983" height="16.366"
+                                            viewBox="0 0 16.983 16.366">
+                                            <g id="Group_3108" data-name="Group 3108"
+                                                transform="translate(-382.637 -457.964)">
+                                                <path id="Path_6976" data-name="Path 6976"
+                                                    d="M0,6.763V2.593l.967.967L4.526,0,6.763,2.237,3.2,5.8l.967.967Z"
+                                                    transform="translate(399.62 464.727) rotate(180)" fill="#fff">
+                                                </path>
+                                                <path id="Path_6977" data-name="Path 6977"
+                                                    d="M6.763,6.763V2.593L5.8,3.56,2.237,0,0,2.237,3.56,5.8l-.967.967Z"
+                                                    transform="translate(389.4 464.727) rotate(180)" fill="#fff"></path>
+                                                <path id="Path_6978" data-name="Path 6978"
+                                                    d="M0,0V4.17L.967,3.2l3.56,3.559L6.763,4.526,3.2.967,4.17,0Z"
+                                                    transform="translate(399.62 474.33) rotate(180)" fill="#fff"></path>
+                                                <path id="Path_6979" data-name="Path 6979"
+                                                    d="M6.763,0V4.17L5.8,3.2l-3.56,3.56L0,4.526,3.56.967,2.593,0Z"
+                                                    transform="translate(389.4 474.33) rotate(180)" fill="#fff"></path>
+                                            </g>
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="scroll-theme">
+                                    <div class="nav-dropholder-item">
+                                        <div class="avatar">
+                                            <img src="img/icon-nav-user.png" class="bg-cover ">
+                                        </div>
+                                        <p class="msg"><span class="user-name">زيدان يونس</span>هذا النص مثال لى نص هذا
+                                            النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص
+                                            هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى
+                                            نص <span class="remove-item
+                                            "><svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                                    viewBox="0 0 11.963 11.963">
+                                                    <g id="Group_21" data-name="Group 21"
+                                                        transform="translate(5.981 -3.153) rotate(45)">
+                                                        <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                            transform="translate(6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                    </g>
+                                                </svg></span></p>
+                                        <p class="info"><span class="group"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    id="Group_1787" data-name="Group 1787" width="27.34" height="22.534"
+                                                    viewBox="0 0 27.34 22.534">
+                                                    <path id="Path_6934" data-name="Path 6934"
+                                                        d="M255.352,77.4h11.835a.41.41,0,0,0,.41-.41V75.41a.41.41,0,0,0-.41-.41H254.222a.41.41,0,0,0-.334.649l1.13,1.582A.411.411,0,0,0,255.352,77.4Z"
+                                                        transform="translate(-240.258 -73.398)" fill="#484848"></path>
+                                                    <path id="Path_6935" data-name="Path 6935"
+                                                        d="M8.909,45H2.225A2.225,2.225,0,0,0,0,47.225V65.31a2.225,2.225,0,0,0,2.225,2.225H25.116A2.225,2.225,0,0,0,27.34,65.31V52.832a2.225,2.225,0,0,0-2.225-2.225H15.2a2.225,2.225,0,0,1-1.81-.932l-2.674-3.744A2.225,2.225,0,0,0,8.909,45Z"
+                                                        transform="translate(0 -45)" fill="#484848"></path>
+                                                </svg></span><span class="time"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    id="Group_2143" data-name="Group 2143" width="19" height="19"
+                                                    viewBox="0 0 19 19">
+                                                    <path id="Path_6985" data-name="Path 6985"
+                                                        d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,17.812A8.312,8.312,0,1,1,17.812,9.5,8.322,8.322,0,0,1,9.5,17.812Z"
+                                                        fill="#484848"></path>
+                                                    <path id="Path_6986" data-name="Path 6986"
+                                                        d="M241.187,96H240v6.183l3.736,3.736.84-.84-3.388-3.388Z"
+                                                        transform="translate(-231.094 -92.438)" fill="#484848"></path>
+                                                </svg> 8س</span></p>
+                                    </div>
+
+                                    <div class="nav-dropholder-item">
+                                        <div class="avatar">
+                                            <img src="img/icon-nav-user.png" class="bg-cover ">
+                                        </div>
+                                        <p class="msg"><span class="user-name">زيدان يونس</span>هذا النص مثال لى نص هذا
+                                            النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص
+                                            هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى
+                                            نص <span class="remove-item
+                                            "><svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                                    viewBox="0 0 11.963 11.963">
+                                                    <g id="Group_21" data-name="Group 21"
+                                                        transform="translate(5.981 -3.153) rotate(45)">
+                                                        <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                            transform="translate(6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                    </g>
+                                                </svg></span></p>
+                                        <p class="info"><span class="group"><svg
+                                                    id="election-event-on-a-calendar-with-star-symbol"
+                                                    xmlns="http://www.w3.org/2000/svg" width="27.388" height="27.824"
+                                                    viewBox="0 0 27.388 27.824">
+                                                    <g id="Group_1653" data-name="Group 1653">
+                                                        <path id="Path_6083" data-name="Path 6083"
+                                                            d="M40.714,57.454l-.427,2.535a.924.924,0,0,0,1.34.974l2.28-1.19,2.28,1.19a.925.925,0,0,0,1.341-.974L47.1,57.455l1.836-1.8a.925.925,0,0,0-.512-1.576L45.88,53.7l-1.146-2.3a.925.925,0,0,0-1.657,0l-1.144,2.3-2.544.377a.925.925,0,0,0-.512,1.576Z"
+                                                            transform="translate(-30.213 -39.542)" fill="#484848">
+                                                        </path>
+                                                        <path id="Path_6084" data-name="Path 6084"
+                                                            d="M25.6,2.958H22.69V1.342A1.342,1.342,0,0,0,21.347,0h-.213a1.342,1.342,0,0,0-1.342,1.342V2.958H9.516V1.342A1.342,1.342,0,0,0,8.174,0H7.961A1.342,1.342,0,0,0,6.618,1.342V2.958H3.74A2.766,2.766,0,0,0,.977,5.721v19.34A2.767,2.767,0,0,0,3.74,27.824H25.6a2.767,2.767,0,0,0,2.763-2.763V5.721A2.767,2.767,0,0,0,25.6,2.958ZM25.242,24.7H4.1V9.645H25.242Z"
+                                                            transform="translate(-0.977)" fill="#484848"></path>
+                                                    </g>
+                                                </svg></span><span class="time"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    id="Group_2143" data-name="Group 2143" width="19" height="19"
+                                                    viewBox="0 0 19 19">
+                                                    <path id="Path_6985" data-name="Path 6985"
+                                                        d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,17.812A8.312,8.312,0,1,1,17.812,9.5,8.322,8.322,0,0,1,9.5,17.812Z"
+                                                        fill="#484848"></path>
+                                                    <path id="Path_6986" data-name="Path 6986"
+                                                        d="M241.187,96H240v6.183l3.736,3.736.84-.84-3.388-3.388Z"
+                                                        transform="translate(-231.094 -92.438)" fill="#484848"></path>
+                                                </svg> 8س</span></p>
+                                    </div>
+
+                                    <div class="nav-dropholder-item">
+                                        <div class="avatar">
+                                            <img src="img/icon-nav-user.png" class="bg-cover ">
+                                        </div>
+                                        <p class="msg"><span class="user-name">زيدان يونس</span>هذا النص مثال لى نص هذا
+                                            النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص
+                                            هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى
+                                            نص <span class="remove-item
+                                            "><svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                                    viewBox="0 0 11.963 11.963">
+                                                    <g id="Group_21" data-name="Group 21"
+                                                        transform="translate(5.981 -3.153) rotate(45)">
+                                                        <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                            transform="translate(6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                    </g>
+                                                </svg></span></p>
+                                        <p class="info"><span class="group"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    width="29.123" height="29.61" viewBox="0 0 29.123 29.61">
+                                                    <path id="Path_6926" data-name="Path 6926"
+                                                        d="M64.809,39.362V25.921a2.767,2.767,0,0,0-2.763-2.763h-2.91V21.542A1.343,1.343,0,0,0,57.793,20.2H57.58a1.342,1.342,0,0,0-1.343,1.342v1.616H45.96V21.542A1.343,1.343,0,0,0,44.618,20.2H44.4a1.342,1.342,0,0,0-1.343,1.341h0v1.616H40.183a2.765,2.765,0,0,0-2.763,2.763V45.264a2.767,2.767,0,0,0,2.763,2.764H56.045a6.163,6.163,0,0,0,8.765-8.666Zm-2.354,6.36a.561.561,0,0,1-.793,0l-.819-.819-.863-.863a.558.558,0,0,1-.164-.4V40.28a.56.56,0,1,1,1.121,0v3.131l.751.751.767.767A.561.561,0,0,1,62.455,45.722ZM40.543,29.846H61.688v7.777a6.034,6.034,0,0,0-1.311-.145,6.174,6.174,0,0,0-6.167,6.166,6.007,6.007,0,0,0,.135,1.259h-13.8Z"
+                                                        transform="translate(-37.42 -20.2)" fill="#484848"></path>
+                                                </svg></span><span class="time"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    id="Group_2143" data-name="Group 2143" width="19" height="19"
+                                                    viewBox="0 0 19 19">
+                                                    <path id="Path_6985" data-name="Path 6985"
+                                                        d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,17.812A8.312,8.312,0,1,1,17.812,9.5,8.322,8.322,0,0,1,9.5,17.812Z"
+                                                        fill="#484848"></path>
+                                                    <path id="Path_6986" data-name="Path 6986"
+                                                        d="M241.187,96H240v6.183l3.736,3.736.84-.84-3.388-3.388Z"
+                                                        transform="translate(-231.094 -92.438)" fill="#484848"></path>
+                                                </svg> 8س</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="icon-mail dropdown notif-active nav-dropholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Group_1778" data-name="Group 1778" width="24.782"
+                            height="19.342" viewBox="0 0 24.782 19.342" id="dLabel" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" class="drop-holder">
+                            <g id="Group_1778-2" data-name="Group 1778">
+                                <path id="Path_6927" data-name="Path 6927"
+                                    d="M24.781,73.062a1.1,1.1,0,0,0-.147-.481l-4.646-8.059A1.024,1.024,0,0,0,19.1,64H5.681a1.024,1.024,0,0,0-.885.522L.149,72.581A1.1,1.1,0,0,0,0,73.062c0,.025,0,8.132,0,8.132a2.111,2.111,0,0,0,2.065,2.149H22.716a2.111,2.111,0,0,0,2.065-2.149S24.785,73.087,24.781,73.062ZM19.619,72.6a2.111,2.111,0,0,0-2.065,2.149,1.055,1.055,0,0,1-1.032,1.075H8.262a1.055,1.055,0,0,1-1.032-1.075A2.111,2.111,0,0,0,5.165,72.6H2.549l3.717-6.447H18.518L22.235,72.6Z"
+                                    transform="translate(-0.001 -64)" fill="#484848" />
+                            </g>
+                        </svg>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li class="dropnav-header">
+                                <p class="dropnav-title">البريد</p>
+                                <div class="dropnav-options">
+                                    <div class="droptwo dropdown">
+                                        <div id="drop3" class="btn-dropdown-holder" type="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <span class="filter-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.9"
+                                                    viewBox="0 0 16 15.9">
+                                                    <g id="Group_3080" data-name="Group 3080"
+                                                        transform="translate(0.322 -0.424)">
+                                                        <g id="Group_3079" data-name="Group 3079"
+                                                            transform="translate(0 0)">
+                                                            <g id="Group_3078" data-name="Group 3078"
+                                                                transform="translate(0)">
+                                                                <path id="Path_7152" data-name="Path 7152"
+                                                                    d="M32.153,70.888a.509.509,0,0,1,.144.351v7.437l3.194-2.731V71.239a.509.509,0,0,1,.144-.351L41.038,65H26.75Z"
+                                                                    transform="translate(-26.39 -62.351)"
+                                                                    fill="#8f9198" />
+                                                                <rect id="Rectangle_971" data-name="Rectangle 971"
+                                                                    width="16" height="1"
+                                                                    transform="translate(-0.322 0.424)"
+                                                                    fill="#8f9198" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+
+                                            </span>
+                                            تصفية
+                                        </div>
+                                        <ul class="dropdown-menu" aria-labelledby="drop3">
+                                            <li>
+                                                <div class="radio-input-holder">
+                                                    <input type="checkbox" id="add555">
+                                                    <label for="add555">ترتيب حسب الأحدث</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="radio-input-holder">
+                                                    <input type="checkbox" id="add666">
+                                                    <label for="add666">عرض الكل</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="btn-clear-all">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                            viewBox="0 0 11.963 11.963">
+                                            <g id="Group_21" data-name="Group 21"
+                                                transform="translate(5.981 -3.153) rotate(45)">
+                                                <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                    transform="translate(6.459)" fill="none" stroke="#fff"
+                                                    stroke-linecap="round" stroke-width="2"></line>
+                                                <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                    transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                    stroke-linecap="round" stroke-width="2"></line>
+                                            </g>
+                                        </svg>
+
+                                        مسح الكل
+                                    </div>
+
+                                    <div class="btn-open-dropnav">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16.983" height="16.366"
+                                            viewBox="0 0 16.983 16.366">
+                                            <g id="Group_3108" data-name="Group 3108"
+                                                transform="translate(-382.637 -457.964)">
+                                                <path id="Path_6976" data-name="Path 6976"
+                                                    d="M0,6.763V2.593l.967.967L4.526,0,6.763,2.237,3.2,5.8l.967.967Z"
+                                                    transform="translate(399.62 464.727) rotate(180)" fill="#fff">
+                                                </path>
+                                                <path id="Path_6977" data-name="Path 6977"
+                                                    d="M6.763,6.763V2.593L5.8,3.56,2.237,0,0,2.237,3.56,5.8l-.967.967Z"
+                                                    transform="translate(389.4 464.727) rotate(180)" fill="#fff"></path>
+                                                <path id="Path_6978" data-name="Path 6978"
+                                                    d="M0,0V4.17L.967,3.2l3.56,3.559L6.763,4.526,3.2.967,4.17,0Z"
+                                                    transform="translate(399.62 474.33) rotate(180)" fill="#fff"></path>
+                                                <path id="Path_6979" data-name="Path 6979"
+                                                    d="M6.763,0V4.17L5.8,3.2l-3.56,3.56L0,4.526,3.56.967,2.593,0Z"
+                                                    transform="translate(389.4 474.33) rotate(180)" fill="#fff"></path>
+                                            </g>
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="scroll-theme">
+                                    <div class="nav-dropholder-item">
+                                        <div class="avatar">
+                                            <img src="img/icon-nav-user.png" class="bg-cover ">
+                                        </div>
+                                        <p class="msg"><span class="user-name">زيدان يونس</span>هذا النص مثال لى نص هذا
+                                            النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص
+                                            هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى
+                                            نص <span class="remove-item
+                                            "><svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                                    viewBox="0 0 11.963 11.963">
+                                                    <g id="Group_21" data-name="Group 21"
+                                                        transform="translate(5.981 -3.153) rotate(45)">
+                                                        <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                            transform="translate(6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                    </g>
+                                                </svg></span></p>
+                                        <p class="info"><span class="time"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    id="Group_2143" data-name="Group 2143" width="19" height="19"
+                                                    viewBox="0 0 19 19">
+                                                    <path id="Path_6985" data-name="Path 6985"
+                                                        d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,17.812A8.312,8.312,0,1,1,17.812,9.5,8.322,8.322,0,0,1,9.5,17.812Z"
+                                                        fill="#484848"></path>
+                                                    <path id="Path_6986" data-name="Path 6986"
+                                                        d="M241.187,96H240v6.183l3.736,3.736.84-.84-3.388-3.388Z"
+                                                        transform="translate(-231.094 -92.438)" fill="#484848"></path>
+                                                </svg> 8س</span></p>
+                                    </div>
+
+                                    <div class="nav-dropholder-item">
+                                        <div class="avatar">
+                                            <img src="img/icon-nav-user.png" class="bg-cover ">
+                                        </div>
+                                        <p class="msg"><span class="user-name">زيدان يونس</span>هذا النص مثال لى نص هذا
+                                            النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص
+                                            هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى
+                                            نص <span class="remove-item
+                                            "><svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                                    viewBox="0 0 11.963 11.963">
+                                                    <g id="Group_21" data-name="Group 21"
+                                                        transform="translate(5.981 -3.153) rotate(45)">
+                                                        <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                            transform="translate(6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                    </g>
+                                                </svg></span></p>
+                                        <p class="info"><span class="time"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    id="Group_2143" data-name="Group 2143" width="19" height="19"
+                                                    viewBox="0 0 19 19">
+                                                    <path id="Path_6985" data-name="Path 6985"
+                                                        d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,17.812A8.312,8.312,0,1,1,17.812,9.5,8.322,8.322,0,0,1,9.5,17.812Z"
+                                                        fill="#484848"></path>
+                                                    <path id="Path_6986" data-name="Path 6986"
+                                                        d="M241.187,96H240v6.183l3.736,3.736.84-.84-3.388-3.388Z"
+                                                        transform="translate(-231.094 -92.438)" fill="#484848"></path>
+                                                </svg> 8س</span></p>
+                                    </div>
+
+                                    <div class="nav-dropholder-item">
+                                        <div class="avatar">
+                                            <img src="img/icon-nav-user.png" class="bg-cover ">
+                                        </div>
+                                        <p class="msg"><span class="user-name">زيدان يونس</span>هذا النص مثال لى نص هذا
+                                            النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص
+                                            هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى نص هذا النص مثال لى
+                                            نص <span class="remove-item
+                                            "><svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                                    viewBox="0 0 11.963 11.963">
+                                                    <g id="Group_21" data-name="Group 21"
+                                                        transform="translate(5.981 -3.153) rotate(45)">
+                                                        <line id="Line_28" data-name="Line 28" y2="12.918"
+                                                            transform="translate(6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                                            stroke-linecap="round" stroke-width="2"></line>
+                                                    </g>
+                                                </svg></span></p>
+                                        <p class="info"><span class="time"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    id="Group_2143" data-name="Group 2143" width="19" height="19"
+                                                    viewBox="0 0 19 19">
+                                                    <path id="Path_6985" data-name="Path 6985"
+                                                        d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,17.812A8.312,8.312,0,1,1,17.812,9.5,8.322,8.322,0,0,1,9.5,17.812Z"
+                                                        fill="#484848"></path>
+                                                    <path id="Path_6986" data-name="Path 6986"
+                                                        d="M241.187,96H240v6.183l3.736,3.736.84-.84-3.388-3.388Z"
+                                                        transform="translate(-231.094 -92.438)" fill="#484848"></path>
+                                                </svg> 8س</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="nav-user-holder  dropdown">
+                    <div id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        class="drop-holder">
+                        اهلا بك
+                        <span class="username">
+                            زيدان يونس
+                        </span>
+
+                        <div class="nav-user-pp">
+                            <img src="img/icon-nav-user.png" class="bg-cover ">
+                        </div>
+                    </div>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li data-toggle="modal" data-target="#modal-acc">
+                            <svg id="Group_1779" data-name="Group 1779" xmlns="http://www.w3.org/2000/svg"
+                                width="24.869" height="24.621" viewBox="0 0 24.869 24.621">
+                                <g id="Group_1780" data-name="Group 1780" transform="translate(6.648)">
+                                    <g id="Group_1779-2" data-name="Group 1779" transform="translate(0)">
+                                        <path id="Path_6928" data-name="Path 6928"
+                                            d="M126.786,0a5.786,5.786,0,1,0,5.786,5.786A5.793,5.793,0,0,0,126.786,0Z"
+                                            transform="translate(-121)" fill="#484848"></path>
+                                    </g>
+                                </g>
+                                <g id="Group_1782" data-name="Group 1782" transform="translate(0 12.905)">
+                                    <g id="Group_1781" data-name="Group 1781" transform="translate(0)">
+                                        <path id="Path_6929" data-name="Path 6929"
+                                            d="M52.717,303.216A10.636,10.636,0,0,0,45.093,300H41.777a10.636,10.636,0,0,0-7.625,3.216A10.873,10.873,0,0,0,31,310.887a.829.829,0,0,0,.829.829H55.04a.829.829,0,0,0,.829-.829A10.873,10.873,0,0,0,52.717,303.216Z"
+                                            transform="translate(-31 -300)" fill="#484848"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            ملفي الشخصي
+                        </li>
+                        <li>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M510.371,226.513c-1.088-2.603-2.645-4.971-4.629-6.955l-63.979-63.979c-8.341-8.32-21.824-8.32-30.165,0
+                                       c-8.341,8.341-8.341,21.845,0,30.165l27.584,27.584H320.013c-11.797,0-21.333,9.557-21.333,21.333s9.536,21.333,21.333,21.333
+                                       h119.168l-27.584,27.584c-8.341,8.341-8.341,21.845,0,30.165c4.16,4.181,9.621,6.251,15.083,6.251s10.923-2.069,15.083-6.251
+                                       l63.979-63.979c1.984-1.963,3.541-4.331,4.629-6.955C512.525,237.606,512.525,231.718,510.371,226.513z" />
+                                            <path
+                                                d="M362.68,298.667c-11.797,0-21.333,9.557-21.333,21.333v106.667h-85.333V85.333c0-9.408-6.187-17.728-15.211-20.437
+                                       l-74.091-22.229h174.635v106.667c0,11.776,9.536,21.333,21.333,21.333s21.333-9.557,21.333-21.333v-128
+                                       C384.013,9.557,374.477,0,362.68,0H21.347c-0.768,0-1.451,0.32-2.197,0.405c-1.003,0.107-1.92,0.277-2.88,0.512
+                                       c-2.24,0.576-4.267,1.451-6.165,2.645c-0.469,0.299-1.045,0.32-1.493,0.661C8.44,4.352,8.376,4.587,8.205,4.715
+                                       C5.88,6.549,3.939,8.789,2.531,11.456c-0.299,0.576-0.363,1.195-0.597,1.792c-0.683,1.621-1.429,3.2-1.685,4.992
+                                       c-0.107,0.64,0.085,1.237,0.064,1.856c-0.021,0.427-0.299,0.811-0.299,1.237V448c0,10.176,7.189,18.923,17.152,20.907
+                                       l213.333,42.667c1.387,0.299,2.795,0.427,4.181,0.427c4.885,0,9.685-1.685,13.525-4.843c4.928-4.053,7.808-10.091,7.808-16.491
+                                       v-21.333H362.68c11.797,0,21.333-9.557,21.333-21.333V320C384.013,308.224,374.477,298.667,362.68,298.667z" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            خروج
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+        <div class="nav-page-tabs">
+
+            <div class="pages-tabs-holder swiper-container">
+                <ul class="swiper-wrapper" id="sortableTabs">
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default page-tab-active">لوحة القيادة</li>
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 1 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 2 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 3 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 4 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 5 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 6 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 7 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 8 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 9 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item swiper-slide swiper-no-swiping ui-state-default">
+                        <div class="item-pagetab-wrapper">
+                            <div class="btn-close-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="pagetab-name"> 10 اسم الصفحة</span>
+                            <div class="btn-duplicate-pagetabs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                    viewBox="0 0 11.963 11.963">
+                                    <g id="Group_21" data-name="Group 21"
+                                        transform="translate(5.981 -3.153) rotate(45)">
+                                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                            fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                        <line id="Line_29" data-name="Line 29" x2="12.918"
+                                            transform="translate(0 6.459)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="pages-tabs-arrow swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" width="8.231"
+                    height="15.279" viewBox="0 0 8.231 15.279">
+                    <g id="Group_2126" data-name="Group 2126" transform="translate(8.231 15.279) rotate(180)">
+                        <g id="Group_2125" data-name="Group 2125" transform="translate(0 0)">
+                            <path id="Path_6981" data-name="Path 6981"
+                                d="M8.059,7.22,1,.165A.588.588,0,0,0,.172,1l6.64,6.64-6.64,6.64A.588.588,0,1,0,1,15.107L8.059,8.052A.588.588,0,0,0,8.059,7.22Z"
+                                fill="#484848"></path>
+                        </g>
+                    </g>
+                </svg></div>
+            <div class="pages-tabs-arrow swiper-button-prev"><svg id="Group_3108" data-name="Group 3108"
+                    xmlns="http://www.w3.org/2000/svg" width="8.231" height="15.279" viewBox="0 0 8.231 15.279">
+                    <g id="Group_2125" data-name="Group 2125" transform="translate(0 0)">
+                        <path id="Path_6981" data-name="Path 6981"
+                            d="M8.059,7.22,1,.165A.588.588,0,0,0,.172,1l6.64,6.64-6.64,6.64A.588.588,0,1,0,1,15.107L8.059,8.052A.588.588,0,0,0,8.059,7.22Z"
+                            fill="#484848"></path>
+                    </g>
+                </svg></div>
+
+            <div class="btn-close-pages-tabs" title="إغلاق الكل" data-toggle="tooltip" data-placement="top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963" viewBox="0 0 11.963 11.963">
+                    <g id="Group_21" data-name="Group 21" transform="translate(5.981 -3.153) rotate(45)">
+                        <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)" fill="none"
+                            stroke="#fff" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_29" data-name="Line 29" x2="12.918" transform="translate(0 6.459)" fill="none"
+                            stroke="#fff" stroke-linecap="round" stroke-width="2" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <aside class="aside-menu">
+        <ul>
+            <li class="menu-active">
+                <a>
+                    <div class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27.526" height="27.526"
+                            viewBox="0 0 27.526 27.526">
+                            <g id="Group_2457" data-name="Group 2457" transform="translate(-1842 -250.543)">
+                                <g id="Group_2437" data-name="Group 2437" transform="translate(-17)">
+                                    <path id="Path_6923" data-name="Path 6923"
+                                        d="M394.763-92A13.763,13.763,0,0,0,381-78.237a13.763,13.763,0,0,0,13.763,13.763,13.763,13.763,0,0,0,13.763-13.763A13.778,13.778,0,0,0,394.763-92Zm-1.376,15.6a2.294,2.294,0,0,1-.459-3.211h0c.76-1.013,4.588-2.294,4.588-2.294s-.158,4.033-.918,5.046a2.294,2.294,0,0,1-3.211.459Zm1.448,8.559v-2.294a8.028,8.028,0,0,0,8.028-8.028,8.028,8.028,0,0,0-8.028-8.028,8.028,8.028,0,0,0-8.028,8.028h-2.294a10.322,10.322,0,0,1,10.322-10.322,10.322,10.322,0,0,1,10.322,10.322A10.322,10.322,0,0,1,394.835-67.843Z"
+                                        transform="translate(1478 342.543)" fill="#0072ff" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <span class="menu-title">لوحة القيادة</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Group_1787" data-name="Group 1787" width="27.34"
+                            height="22.534" viewBox="0 0 27.34 22.534">
+                            <path id="Path_6934" data-name="Path 6934"
+                                d="M255.352,77.4h11.835a.41.41,0,0,0,.41-.41V75.41a.41.41,0,0,0-.41-.41H254.222a.41.41,0,0,0-.334.649l1.13,1.582A.411.411,0,0,0,255.352,77.4Z"
+                                transform="translate(-240.258 -73.398)" fill="#484848" />
+                            <path id="Path_6935" data-name="Path 6935"
+                                d="M8.909,45H2.225A2.225,2.225,0,0,0,0,47.225V65.31a2.225,2.225,0,0,0,2.225,2.225H25.116A2.225,2.225,0,0,0,27.34,65.31V52.832a2.225,2.225,0,0,0-2.225-2.225H15.2a2.225,2.225,0,0,1-1.81-.932l-2.674-3.744A2.225,2.225,0,0,0,8.909,45Z"
+                                transform="translate(0 -45)" fill="#484848" />
+                        </svg>
+                    </div>
+                    <span class="menu-title">المجلدات</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="27.07" viewBox="0 0 28 27.07">
+                            <path id="Subtraction_26" data-name="Subtraction 26"
+                                d="M7.636,27.071V19.992h-4.5A3.158,3.158,0,0,1,0,16.821V3.218A3.158,3.158,0,0,1,3.137.046L24.863,0A3.158,3.158,0,0,1,28,3.172v13.6a3.158,3.158,0,0,1-3.137,3.172L14,19.992,7.637,27.069ZM5.727,13.513a.643.643,0,0,0,0,1.287H22.273a.643.643,0,0,0,0-1.287Zm0-3.861a.643.643,0,0,0,0,1.287H22.273a.643.643,0,0,0,0-1.287Zm0-3.861a.643.643,0,0,0,0,1.287H14a.643.643,0,0,0,0-1.287Z"
+                                fill="#484848" />
+                        </svg>
+                    </div>
+                    <span class="menu-title">الصادر والوارد</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg id="election-event-on-a-calendar-with-star-symbol" xmlns="http://www.w3.org/2000/svg"
+                            width="27.388" height="27.824" viewBox="0 0 27.388 27.824">
+                            <g id="Group_1653" data-name="Group 1653">
+                                <path id="Path_6083" data-name="Path 6083"
+                                    d="M40.714,57.454l-.427,2.535a.924.924,0,0,0,1.34.974l2.28-1.19,2.28,1.19a.925.925,0,0,0,1.341-.974L47.1,57.455l1.836-1.8a.925.925,0,0,0-.512-1.576L45.88,53.7l-1.146-2.3a.925.925,0,0,0-1.657,0l-1.144,2.3-2.544.377a.925.925,0,0,0-.512,1.576Z"
+                                    transform="translate(-30.213 -39.542)" fill="#484848" />
+                                <path id="Path_6084" data-name="Path 6084"
+                                    d="M25.6,2.958H22.69V1.342A1.342,1.342,0,0,0,21.347,0h-.213a1.342,1.342,0,0,0-1.342,1.342V2.958H9.516V1.342A1.342,1.342,0,0,0,8.174,0H7.961A1.342,1.342,0,0,0,6.618,1.342V2.958H3.74A2.766,2.766,0,0,0,.977,5.721v19.34A2.767,2.767,0,0,0,3.74,27.824H25.6a2.767,2.767,0,0,0,2.763-2.763V5.721A2.767,2.767,0,0,0,25.6,2.958ZM25.242,24.7H4.1V9.645H25.242Z"
+                                    transform="translate(-0.977)" fill="#484848" />
+                            </g>
+                        </svg>
+
+                    </div>
+                    <span class="menu-title">قائمة الأحداث </span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.123" height="29.61"
+                            viewBox="0 0 29.123 29.61">
+                            <path id="Path_6926" data-name="Path 6926"
+                                d="M64.809,39.362V25.921a2.767,2.767,0,0,0-2.763-2.763h-2.91V21.542A1.343,1.343,0,0,0,57.793,20.2H57.58a1.342,1.342,0,0,0-1.343,1.342v1.616H45.96V21.542A1.343,1.343,0,0,0,44.618,20.2H44.4a1.342,1.342,0,0,0-1.343,1.341h0v1.616H40.183a2.765,2.765,0,0,0-2.763,2.763V45.264a2.767,2.767,0,0,0,2.763,2.764H56.045a6.163,6.163,0,0,0,8.765-8.666Zm-2.354,6.36a.561.561,0,0,1-.793,0l-.819-.819-.863-.863a.558.558,0,0,1-.164-.4V40.28a.56.56,0,1,1,1.121,0v3.131l.751.751.767.767A.561.561,0,0,1,62.455,45.722ZM40.543,29.846H61.688v7.777a6.034,6.034,0,0,0-1.311-.145,6.174,6.174,0,0,0-6.167,6.166,6.007,6.007,0,0,0,.135,1.259h-13.8Z"
+                                transform="translate(-37.42 -20.2)" fill="#484848" />
+                        </svg>
+                    </div>
+                    <span class="menu-title">المهام</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg id="Group_1778" data-name="Group 1778" xmlns="http://www.w3.org/2000/svg" width="28.789"
+                            height="21.592" viewBox="0 0 28.789 21.592">
+                            <g id="Group_1778-2" data-name="Group 1778">
+                                <path id="Path_6927" data-name="Path 6927"
+                                    d="M28.788,74.116a1.2,1.2,0,0,0-.171-.537l-5.4-9A1.2,1.2,0,0,0,22.191,64H6.6a1.2,1.2,0,0,0-1.028.582l-5.4,9A1.2,1.2,0,0,0,0,74.115c0,.027,0,9.077,0,9.077a2.4,2.4,0,0,0,2.4,2.4H26.389a2.4,2.4,0,0,0,2.4-2.4S28.792,74.143,28.788,74.116Zm-6-.519a2.4,2.4,0,0,0-2.4,2.4,1.2,1.2,0,0,1-1.2,1.2H9.6A1.2,1.2,0,0,1,8.4,76,2.4,2.4,0,0,0,6,73.6H2.96l4.318-7.2H21.512l4.318,7.2Z"
+                                    transform="translate(-0.001 -64)" fill="#484848" />
+                            </g>
+                        </svg>
+                    </div>
+                    <span class="menu-title">البريد</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg id="Group_1779" data-name="Group 1779" xmlns="http://www.w3.org/2000/svg" width="24.869"
+                            height="24.621" viewBox="0 0 24.869 24.621">
+                            <g id="Group_1780" data-name="Group 1780" transform="translate(6.648)">
+                                <g id="Group_1779-2" data-name="Group 1779" transform="translate(0)">
+                                    <path id="Path_6928" data-name="Path 6928"
+                                        d="M126.786,0a5.786,5.786,0,1,0,5.786,5.786A5.793,5.793,0,0,0,126.786,0Z"
+                                        transform="translate(-121)" fill="#484848" />
+                                </g>
+                            </g>
+                            <g id="Group_1782" data-name="Group 1782" transform="translate(0 12.905)">
+                                <g id="Group_1781" data-name="Group 1781" transform="translate(0)">
+                                    <path id="Path_6929" data-name="Path 6929"
+                                        d="M52.717,303.216A10.636,10.636,0,0,0,45.093,300H41.777a10.636,10.636,0,0,0-7.625,3.216A10.873,10.873,0,0,0,31,310.887a.829.829,0,0,0,.829.829H55.04a.829.829,0,0,0,.829-.829A10.873,10.873,0,0,0,52.717,303.216Z"
+                                        transform="translate(-31 -300)" fill="#484848" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <span class="menu-title">ملفي الخاص</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg id="Group_1783" data-name="Group 1783" xmlns="http://www.w3.org/2000/svg" width="20.053"
+                            height="26.326" viewBox="0 0 20.053 26.326">
+                            <path id="Path_6930" data-name="Path 6930"
+                                d="M350.947,13.727c-1.469-1.467-3.517-3.519-4.947-4.947v4.947Z"
+                                transform="translate(-331.346 -8.329)" fill="#484848" />
+                            <path id="Path_6931" data-name="Path 6931"
+                                d="M81.053,6.941H74.112V0H61V25.242l6.557-6.531,2.312,2.312,4.672-4.672H72.569V14.809H77.2v4.628H75.654V17.42L69.87,23.2,67.555,20.89,62.1,26.326H81.053ZM71.027,10.784h-6.17V9.242h6.17Zm0-3.843h-6.17V5.4h6.17Z"
+                                transform="translate(-61)" fill="#484848" />
+                        </svg>
+                    </div>
+                    <span class="menu-title">التقارير</span>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <div class="menu-icon">
+                        <svg id="settings-gears" xmlns="http://www.w3.org/2000/svg" width="27.39" height="27.385"
+                            viewBox="0 0 27.39 27.385">
+                            <path id="Path_6080" data-name="Path 6080"
+                                d="M3.035,21.434a11.251,11.251,0,0,0,1.006,2.389L2.827,25.355a1.257,1.257,0,0,0,.094,1.666l2.092,2.092a1.252,1.252,0,0,0,1.666.094L8.2,28a11.058,11.058,0,0,0,2.484,1.051l.228,1.958a1.254,1.254,0,0,0,1.244,1.11h2.96a1.254,1.254,0,0,0,1.244-1.11l.218-1.889a11.185,11.185,0,0,0,2.662-1.076l1.472,1.165a1.257,1.257,0,0,0,1.666-.094l2.092-2.092a1.252,1.252,0,0,0,.094-1.666L23.42,23.907a10.925,10.925,0,0,0,1.1-2.618l1.765-.2a1.254,1.254,0,0,0,1.11-1.244v-2.96a1.254,1.254,0,0,0-1.11-1.244l-1.74-.2a11,11,0,0,0-1.051-2.588l1.071-1.353a1.257,1.257,0,0,0-.094-1.666L22.379,7.741a1.252,1.252,0,0,0-1.666-.094L19.4,8.688a11.033,11.033,0,0,0-2.722-1.14l-.2-1.7a1.254,1.254,0,0,0-1.244-1.11h-2.96a1.254,1.254,0,0,0-1.244,1.11l-.2,1.7a10.987,10.987,0,0,0-2.791,1.18L6.679,7.647a1.257,1.257,0,0,0-1.666.094L2.921,9.833A1.252,1.252,0,0,0,2.827,11.5l1.14,1.443a10.784,10.784,0,0,0-1.031,2.613l-1.824.208A1.254,1.254,0,0,0,0,17.007v2.96a1.254,1.254,0,0,0,1.11,1.244Zm10.723-8.006A4.893,4.893,0,1,1,8.865,18.32,4.9,4.9,0,0,1,13.758,13.427Z"
+                                transform="translate(-0.001 -4.737)" fill="#484848" />
+                        </svg>
+
+                    </div>
+                    <span class="menu-title">الاعدادات</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="btn-collapse-aside-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8.231" height="15.279" viewBox="0 0 8.231 15.279">
+                <g id="Group_2126" data-name="Group 2126" transform="translate(8.231 15.279) rotate(180)">
+                    <g id="Group_2125" data-name="Group 2125" transform="translate(0 0)">
+                        <path id="Path_6981" data-name="Path 6981"
+                            d="M8.059,7.22,1,.165A.588.588,0,0,0,.172,1l6.64,6.64-6.64,6.64A.588.588,0,1,0,1,15.107L8.059,8.052A.588.588,0,0,0,8.059,7.22Z"
+                            fill="#484848" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </aside>
+
+    <footer>
+        جميع الحقوق محفوظة 2020 لشركة <span> هدهد ©</span>
+    </footer>
+
+    <div class="page-content home-page">
+        <div class="main-slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h3 class="slider-title">اهلا بك 1</h3>
+                    <p class="slider-dec"> نموذج نصي يستخدم منذ القرن السادس عشر بديلا للمحتوى. بدلا من كتابة “اكتب
+                        المحتوى هنا” مرارا وتكرارا، تقدم أداة الأبجدية توزيع شبه طبيعي للكلمات والحروف</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <h3 class="slider-title">اهلا بك 2</h3>
+                    <p class="slider-dec"> نموذج نصي يستخدم منذ القرن السادس عشر بديلا للمحتوى. بدلا من كتابة “اكتب
+                        المحتوى هنا” مرارا وتكرارا، تقدم أداة الأبجدية توزيع شبه طبيعي للكلمات والحروف</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <h3 class="slider-title">اهلا بك 3</h3>
+                    <p class="slider-dec"> نموذج نصي يستخدم منذ القرن السادس عشر بديلا للمحتوى. بدلا من كتابة “اكتب
+                        المحتوى هنا” مرارا وتكرارا، تقدم أداة الأبجدية توزيع شبه طبيعي للكلمات والحروف</p>
+                </div>
+            </div>
+
+            <div class="main-slider-arrow swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" width="8.231"
+                    height="15.279" viewBox="0 0 8.231 15.279">
+                    <g id="Group_2126" data-name="Group 2126" transform="translate(8.231 15.279) rotate(180)">
+                        <g id="Group_2125" data-name="Group 2125" transform="translate(0 0)">
+                            <path id="Path_6981" data-name="Path 6981"
+                                d="M8.059,7.22,1,.165A.588.588,0,0,0,.172,1l6.64,6.64-6.64,6.64A.588.588,0,1,0,1,15.107L8.059,8.052A.588.588,0,0,0,8.059,7.22Z"
+                                fill="#484848"></path>
+                        </g>
+                    </g>
+                </svg></div>
+            <div class="main-slider-arrow swiper-button-prev"><svg id="Group_3108" data-name="Group 3108"
+                    xmlns="http://www.w3.org/2000/svg" width="8.231" height="15.279" viewBox="0 0 8.231 15.279">
+                    <g id="Group_2125" data-name="Group 2125" transform="translate(0 0)">
+                        <path id="Path_6981" data-name="Path 6981"
+                            d="M8.059,7.22,1,.165A.588.588,0,0,0,.172,1l6.64,6.64-6.64,6.64A.588.588,0,1,0,1,15.107L8.059,8.052A.588.588,0,0,0,8.059,7.22Z"
+                            fill="#484848"></path>
+                    </g>
+                </svg></div>
+
+            <div class="btn-main-slider-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16.983" height="16.366" viewBox="0 0 16.983 16.366">
+                    <g id="Group_3108" data-name="Group 3108" transform="translate(-382.637 -457.964)">
+                        <path id="Path_6976" data-name="Path 6976"
+                            d="M0,6.763V2.593l.967.967L4.526,0,6.763,2.237,3.2,5.8l.967.967Z"
+                            transform="translate(399.62 464.727) rotate(180)" fill="#fff" />
+                        <path id="Path_6977" data-name="Path 6977"
+                            d="M6.763,6.763V2.593L5.8,3.56,2.237,0,0,2.237,3.56,5.8l-.967.967Z"
+                            transform="translate(389.4 464.727) rotate(180)" fill="#fff" />
+                        <path id="Path_6978" data-name="Path 6978"
+                            d="M0,0V4.17L.967,3.2l3.56,3.559L6.763,4.526,3.2.967,4.17,0Z"
+                            transform="translate(399.62 474.33) rotate(180)" fill="#fff" />
+                        <path id="Path_6979" data-name="Path 6979"
+                            d="M6.763,0V4.17L5.8,3.2l-3.56,3.56L0,4.526,3.56.967,2.593,0Z"
+                            transform="translate(389.4 474.33) rotate(180)" fill="#fff" />
+                    </g>
+                </svg>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="home-block">
+                    <div class="home-block-item-title"><span class="title">البريد <span class="num">+100</span></span>
+                        <a>عرض
+                            الكل</a></div>
+                    <ul class="home-block-ul">
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">لا تنس العمل على صفحة المهام ..</p>
+                                <div class="files-holder">
+                                    <span class="item-file">file1.jpg</span><span
+                                        class="item-file">file2.jpg</span><span class="more-files">+2</span>
+                                </div>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                                <br>
+                                9:00 AM
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">لا تنس العمل على صفحة المهام ..</p>
+                                <div class="files-holder">
+                                    <span class="item-file">file1.jpg</span><span
+                                        class="item-file">file2.jpg</span><span class="more-files">+2</span>
+                                </div>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                                <br>
+                                9:00 AM
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">لا تنس العمل على صفحة المهام ..</p>
+                                <div class="files-holder">
+                                    <span class="item-file">file1.jpg</span><span
+                                        class="item-file">file2.jpg</span><span class="more-files">+2</span>
+                                </div>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                                <br>
+                                9:00 AM
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="home-block">
+                    <div class="home-block-item-title"><span class="title">المهام <span class="num">+100</span></span>
+                        <a>عرض
+                            الكل</a></div>
+                    <ul class="home-block-ul">
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">قد الانتظار</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">قد الانتظار</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">قد الانتظار</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+                    </ul>
+
+                    <div class="home-block-add"><a>+ إضافة مهمة جديدة</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="home-block">
+                    <div class="home-block-item-title"><span class="title">احدث المستندات <span
+                                class="num">+100</span></span> <a>عرض
+                            الكل</a></div>
+                    <ul class="home-block-ul">
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">مجلد المشاريع</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">مجلد المشاريع</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">مجلد المشاريع</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+                    </ul>
+
+                    <div class="home-block-add"><a>+ إضافة مستند جديد</a></div>
+                </div>
+            </div>
+
+            <div class="col-xs-6">
+                <div class="home-block">
+                    <div class="home-block-item-title"><span class="title">الصادر والوارد <span
+                                class="num">+100</span></span> <a>عرض
+                            الكل</a></div>
+                    <ul class="home-block-ul">
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">الصادر</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">الوارد</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="item-info">
+                                <p class="item-name">الذكاء الاصطناعي</p>
+                                <p class="item-dec">الصادر</p>
+                            </div>
+
+                            <div class="item-date">
+                                25 مارس 2020
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="home-block chart-block">
+                    <div class="home-block-item-title"><span class="title">المستندات المرفوعة منذ 30 يوما </span></div>
+                    <ul class="home-block-ul">
+                        <li class="btn-charts-dropdown">
+                            <div class="dropdown">
+                                <div id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19.557" height="14"
+                                        viewBox="0 0 19.557 14">
+                                        <g id="Group_2008" data-name="Group 2008" transform="translate(1 1)">
+                                            <line id="Line_25" data-name="Line 25" x2="17.557" fill="none"
+                                                stroke="#484848" stroke-linecap="round" stroke-width="2" />
+                                            <line id="Line_26" data-name="Line 26" x2="17.557"
+                                                transform="translate(0 6)" fill="none" stroke="#484848"
+                                                stroke-linecap="round" stroke-width="2" />
+                                            <line id="Line_27" data-name="Line 27" x2="17.557"
+                                                transform="translate(0 12)" fill="none" stroke="#484848"
+                                                stroke-linecap="round" stroke-width="2" />
+                                        </g>
+                                    </svg>
+
+                                </div>
+                                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                    <li>Print</li>
+                                    <li>Save as JPEG</li>
+                                    <li>Save as PNG</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <canvas id="canvasone" class="home-charts"></canvas>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xs-6">
+                <div class="home-block chart-block">
+                    <div class="home-block-item-title"><span class="title">عدد المستندات في كل مجلد </span></div>
+                    <ul class="home-block-ul">
+                        <li class="btn-charts-dropdown">
+                            <div class="dropdown">
+                                <div id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19.557" height="14"
+                                        viewBox="0 0 19.557 14">
+                                        <g id="Group_2008" data-name="Group 2008" transform="translate(1 1)">
+                                            <line id="Line_25" data-name="Line 25" x2="17.557" fill="none"
+                                                stroke="#484848" stroke-linecap="round" stroke-width="2" />
+                                            <line id="Line_26" data-name="Line 26" x2="17.557"
+                                                transform="translate(0 6)" fill="none" stroke="#484848"
+                                                stroke-linecap="round" stroke-width="2" />
+                                            <line id="Line_27" data-name="Line 27" x2="17.557"
+                                                transform="translate(0 12)" fill="none" stroke="#484848"
+                                                stroke-linecap="round" stroke-width="2" />
+                                        </g>
+                                    </svg>
+
+                                </div>
+                                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                    <li>Print</li>
+                                    <li>Save as JPEG</li>
+                                    <li>Save as PNG</li>
+                                </ul>
+                            </div>
+
+                            <p class="charts-calc-num"> المجموع <span>36</span> </p>
+                        </li>
+                        <li>
+                            <canvas id="canvastwo" class="home-charts"></canvas>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <aside class="aside-event">
+
+            <div class="calender-event-cover">
+                <div class="calender-event-holder">
+                    <div class="aside-event-title"><span class="title">احداث اليوم </span> <a>عرض
+                            الكل</a></div>
+                    <div id='calendar-aside'></div>
+                </div>
+            </div>
+
+            <div class="btn-collapse-aside-event">
+                <svg xmlns="http://www.w3.org/2000/svg" width="8.231" height="15.279" viewBox="0 0 8.231 15.279">
+                    <g id="Group_2126" data-name="Group 2126" transform="translate(8.231 15.279) rotate(180)">
+                        <g id="Group_2125" data-name="Group 2125" transform="translate(0 0)">
+                            <path id="Path_6981" data-name="Path 6981"
+                                d="M8.059,7.22,1,.165A.588.588,0,0,0,.172,1l6.64,6.64-6.64,6.64A.588.588,0,1,0,1,15.107L8.059,8.052A.588.588,0,0,0,8.059,7.22Z"
+                                fill="#484848"></path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </aside>
+    </div>
+
+
+    <!-- Modal modal-acc -->
+    <div class="modal fade my-modal" id="modal-acc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">ملفي الشخصي</h4>
+                </div>
+                <div class="modal-body modal-body-padding">
+                    <div class="row">
+
+                        <div class="col-xs-12">
+                            <div class="avatar-holder">
+                                <img src="img/noAvatar.jpg" class="bg-cover">
+
+                                <span class="icon-upload-avatar">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path d="M380.032,133.472l-112-128C264.992,2.016,260.608,0,256,0c-4.608,0-8.992,2.016-12.032,5.472l-112,128
+			c-4.128,4.736-5.152,11.424-2.528,17.152C132.032,156.32,137.728,160,144,160h64v208c0,8.832,7.168,16,16,16h64
+			c8.832,0,16-7.168,16-16V160h64c6.272,0,11.968-3.648,14.56-9.376C385.152,144.896,384.192,138.176,380.032,133.472z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M432,352v96H80v-96H16v128c0,17.696,14.336,32,32,32h416c17.696,0,32-14.304,32-32V352H432z" />
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                </span>
+                            </div>
+                            <p class="modal-username">زيدان يونس</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="main-field-holder">
+                                <label class="main-label">البريد الالكتروني</label>
+                                <input class="main-input" type="name">
+                            </div>
+                            <div class="main-field-holder">
+                                <label class="main-label">الجوال</label>
+                                <input class="main-input" type="name">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="main-field-holder">
+                                <label class="main-label">كلمة السر</label>
+                                <input class="main-input" type="name">
+                            </div>
+                            <div class="main-field-holder">
+                                <label class="main-label">تاكيد كلمة السر</label>
+                                <input class="main-input" type="name">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-done-model">نعم</button>
+                    <button type="button" class="btn-close-model" data-dismiss="modal">
+                        <span class="icon-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11.963" height="11.963"
+                                viewBox="0 0 11.963 11.963">
+                                <g id="Group_21" data-name="Group 21" transform="translate(5.981 -3.153) rotate(45)">
+                                    <line id="Line_28" data-name="Line 28" y2="12.918" transform="translate(6.459)"
+                                        fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                    <line id="Line_29" data-name="Line 29" x2="12.918" transform="translate(0 6.459)"
+                                        fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+                                </g>
+                            </svg>
+                        </span>
+                        تراجع
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="loader-holder" style="display: none;">
+        <img src="img/loader.svg" class="loader-img">
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
